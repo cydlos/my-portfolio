@@ -32,11 +32,12 @@ card-body {
   margin-right: 64px;
   background-image: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214);
   border-radius:4px;
-  box-shadow:1rem 1rem 2.5rem rgba(0,0,0,.3);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   display:flex;
   margin-top: -60px;
   overflow:hidden;
 }
+
 .box__left{
   width:65%;
   height:100%;
@@ -44,8 +45,9 @@ card-body {
   flex-direction:column;
   align-items:center;
   justify-content:space-around;
+  background: #2D303B;
 
-  background-image: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214);
+  /* background-image: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214); */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
