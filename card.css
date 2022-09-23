@@ -14,6 +14,7 @@ html{
 
 .nome {
   color: white;
+  margin-top: 68px;
 }
 card-body {
   color: #323232;
@@ -42,6 +43,7 @@ card-body {
   width:65%;
   height:100%;
   display:flex;
+  padding-top: 22px;
   flex-direction:column;
   align-items:center;
   justify-content:space-around;
