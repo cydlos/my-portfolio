@@ -48,8 +48,6 @@ card-body {
   align-items:center;
   justify-content:space-around;
   background: #2D303B;
-
-  /* background-image: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214); */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -152,5 +150,5 @@ p{
   margin-top: 4px;
 }
 .right--1:hover{
-  background:rgba(174, 186, 248,.8);
+  background: #2D303B;
 }
