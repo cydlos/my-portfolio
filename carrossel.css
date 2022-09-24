@@ -4,7 +4,8 @@
   height: 40vw;
   max-width: 380px;
   max-height: 250px;
-  margin: 0;
+  margin: 168px;
+  margin-top: 50px;
   color: rgb(134, 156, 75);
   perspective: 1000px;
   transform-origin: center;
@@ -79,7 +80,7 @@
     transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
-html,
+/* html,
 body {
   height: 100%;
 }
@@ -90,7 +91,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background: #110F15;
-}
+} */
 
 .checkbox {
   position: relative;
@@ -101,7 +102,7 @@ body {
   color: #F47956;
   transition: color 0.3s ease;
   -webkit-user-select: none;
-     -moz-user-select: none;
+    -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
