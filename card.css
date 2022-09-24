@@ -140,7 +140,7 @@ img{
   transition:background .2s;
 }
 .right--1:not(:last-child){
-  border-bottom:1px solid #2D303B;
+  border-bottom:1px solid #ffffff;
 }
 h2{
   font-size:3rem;
