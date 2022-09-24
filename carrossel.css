@@ -5,8 +5,8 @@
   max-width: 380px;
   max-height: 250px;
   margin: 190px;
-  margin-top: 80px;
-  color: #FF003A;
+  margin-top: 94px;
+  color: #fff;
   perspective: 1000px;
   transform-origin: center;
 }
@@ -17,12 +17,12 @@
   transform-origin: center;
   transform-style: preserve-3d;
   transform: translateZ(-30vw) rotateY(0);
-  -webkit-animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
-          animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  -webkit-animation: carousel 30s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+          animation: carousel 30s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
 .icon-cards__content.step-animation {
-  -webkit-animation: carousel 8s infinite steps(1) forwards;
-          animation: carousel 8s infinite steps(1) forwards;
+  -webkit-animation: carousel 10s infinite steps(1) forwards;
+          animation: carousel 10s infinite steps(1) forwards;
 }
 .icon-cards__item {
   position: absolute;
@@ -39,11 +39,11 @@
   transform-origin: center;
 }
 .icon-cards__item:nth-child(1) {
-  background: #FF003A;
+  background: linear-gradient(0deg, rgba(74,78,94,0.5) 0%, rgba(45,48,59,0.9) 28%);
   transform: rotateY(0) translateZ(35vw);
 }
 .icon-cards__item:nth-child(2) {
-  background: #2D303B;
+  background: linear-gradient(0deg, rgba(244,244,244,0.5) 0%, rgba(255,0,58,0.9) 46%);
   transform: rotateY(120deg) translateZ(35vw);
 }
 .icon-cards__item:nth-child(3) {
@@ -197,4 +197,4 @@ body {
   to {
     transform: scale(1, 1);
   }
-}/*# sourceMappingURL=style.css.map */
+}

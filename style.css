@@ -3,8 +3,8 @@
 @import "carrossel.css";
 @import "footer.css";
 
-body {
-  background: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214);
+:root:root body {
+  background-color: rgb(45, 48, 59);
 }
 
 .container {
@@ -12,5 +12,5 @@ background-color: transparent;
 }
 
 html {
-  background-color: linear-gradient(to right top, #b0b8cc, #9ca4b8, #8990a5, #767d92, #636a7f, #565c6f, #494e60, #3d4151, #323541, #282931, #1d1d22, #121214);
+  background-color: rgb(45, 48, 59);
 }

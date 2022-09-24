@@ -145,11 +145,16 @@ h2{
   font-size:3rem;
   color:#fff;
 }
+
 p{
   font-size:12px;
   color:#FFF;
   margin-top: 4px;
 }
 .right--1:hover{
-  background: #2D303B;
+  background: #a8d5db;
+}
+
+.right--1:hover h2 {
+  color: #2d303b;
 }
