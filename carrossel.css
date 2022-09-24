@@ -6,7 +6,7 @@
   max-height: 250px;
   margin: 168px;
   margin-top: 50px;
-  color: rgb(134, 156, 75);
+  color: #FF003A;
   perspective: 1000px;
   transform-origin: center;
 }
@@ -39,15 +39,15 @@
   transform-origin: center;
 }
 .icon-cards__item:nth-child(1) {
-  background: #FDD94F;
+  background: #FF003A;
   transform: rotateY(0) translateZ(35vw);
 }
 .icon-cards__item:nth-child(2) {
-  background: #F87949;
+  background: #2D303B;
   transform: rotateY(120deg) translateZ(35vw);
 }
 .icon-cards__item:nth-child(3) {
-  background: #FBAB48;
+  background: #FFF;
   transform: rotateY(240deg) translateZ(35vw);
 }
 
