@@ -1,9 +1,10 @@
 .button-53 {
-  background-color: #FE003A;
+  background-color: #4A52F0;
+  /* background-color: #FE003A; */
   border: 0 solid #E5E7EB;
   margin-left: 50px;
   box-sizing: border-box;
-  color: #fff;
+  color: #FFF;
   display: flex;
   font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   /* font-size: 20px; */
@@ -13,7 +14,7 @@
   padding: .75rem 1.65rem;
   position: relative;
   text-align: center;
-  text-decoration: none #A8D5DB solid;
+  text-decoration: none #ACE7E9 solid;
   text-decoration-thickness: auto;
   width: 600px;
   height: 52px;

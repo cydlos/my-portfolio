@@ -48,7 +48,7 @@ card-body {
   flex-direction:column;
   align-items:center;
   justify-content:space-around;
-  background: #2D303B;
+  background: #112232;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
@@ -57,7 +57,7 @@ card-body {
   width:10rem;
   height:10rem;
   border-radius:50%;
-  border:1px solid #FF003B;
+  border:1px solid #74A2FD;
   position:relative;
 }
 .box__image::before{
@@ -66,7 +66,7 @@ card-body {
   height:11rem;
   border-radius:50%;
   border:2px solid;
-  border-color:#A8D5DB transparent #A8D5DB transparent;
+  border-color:#ACE7E9 transparent #ACE7E9 transparent;
   position:absolute;
   top:50%;
   left:50%;
@@ -79,7 +79,7 @@ card-body {
   height:12rem;
   border-radius:50%;
   border:2px solid;
-  border-color:#FF003B #FF003B #FF003B transparent;
+  border-color:#74A2FD #74A2FD #74A2FD transparent;
   position:absolute;
   top:50%;
   left:50%;
@@ -131,7 +131,8 @@ img{
 
 .right--1{
   height:calc(100% / 3);
-  background:#FF003B;
+  background: #4A52F0;
+  /* background:#FF003B; */
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -152,9 +153,9 @@ p{
   margin-top: 4px;
 }
 .right--1:hover{
-  background: #a8d5db;
+  background: #ACE7E9;
 }
 
 .right--1:hover h2 {
-  color: #2d303b;
+  color: #112232;
 }

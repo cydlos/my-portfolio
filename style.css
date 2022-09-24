@@ -4,7 +4,8 @@
 @import "footer.css";
 
 :root:root body {
-  background-color: rgb(45, 48, 59);
+  background-color: #112232;
+  /* background-color: rgb(45, 48, 59); */
 }
 
 /* .container {
