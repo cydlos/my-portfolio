@@ -2,7 +2,7 @@
   background: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 118px;
   width: 100%;
   font-size: 12px;
@@ -26,4 +26,12 @@
 }
 .footer-links a:hover {
   opacity: 1;
+}
+.logo{
+  justify-content: left;
+}
+
+#icon {
+width: 60px;
+height: 60px;
 }
