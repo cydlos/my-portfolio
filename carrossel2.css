@@ -27,31 +27,37 @@
 .carousel_cell:nth-child(1) {
   background: linear-gradient(0deg, rgba(116, 162, 253, 0.5) 0%, rgba(74, 82, 240, 0.9) 46%);
   transform: rotateY(0deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .carousel_cell:nth-child(2) {
   background: linear-gradient(0deg, rgba(116, 162, 253, 0.5) 0%, rgba(74, 82, 240, 0.9) 46%);
   transform: rotateY(60deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .carousel_cell:nth-child(3) {
   background: linear-gradient(0deg, rgba(171, 230, 233,0.5) 0%, rgba(116, 162, 253,0.9) 46%);
   transform: rotateY(120deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .carousel_cell:nth-child(4) {
   background: linear-gradient(0deg, rgba(171, 230, 233,0.5) 0%, rgba(116, 162, 253,0.9) 46%);
   transform: rotateY(180deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .carousel_cell:nth-child(5) {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%,  rgba(171, 230, 233,0.9) 46%);
   transform: rotateY(240deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .carousel_cell:nth-child(6) {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%,  rgba(171, 230, 233,0.9) 46%);
   transform: rotateY(300deg) translateZ(350px);
+  border-radius: 5%;
 }
 
 .bloc_button {

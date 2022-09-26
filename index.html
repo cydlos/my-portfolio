@@ -19,7 +19,7 @@
 
 <body>
   <div class="btn-container d-flex">
-  <box class="button-51 mt-5 p-4" style="font-size: 22px">Welcome to my Portfolio!</box>
+    <box class="button-51 mt-5 p-4" style="font-size: 22px">Welcome to my Portfolio!</box>
   </div>
 
   <div class="container d-flex justify-content-between m-5">
@@ -37,21 +37,25 @@
 
       <div class=bloc_button>
       <div>
-        <button type="button" class="back"><svg viewBox="0 0 256 512" width="50" title="angle-left">
+        <button type="button" class="back">
+          <svg viewBox="0 0 256 512" width="50" title="angle-left">
           <i class="fa-solid fa-3x fa-backward"></i>
         <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-          </svg></button></div>
+          </svg>
+        </button>
+      </div>
 
 
       <div>
           <button type="button" class="next">
           <i class="next fa-3x fa-solid fa-forward"></i>
           <svg viewBox="0 0 256 512" width="50" title="angle-right"></svg>
-        <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-          </svg></button></div>
+          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+          </svg>
+          </button>
       </div>
-
-    </div>
+      </div>
+  </div>
 
       <script>
         let carousel = document.querySelector(".carousel");
@@ -59,18 +63,15 @@
         let next = document.querySelector(".next");
         let current = 0;
         let cellCount = 6;
-
         const rotateCarousel = () => {
           const angle = current / cellCount * -360;
           carousel.style.transform = 'translateZ(-288px) rotateY(' + angle + 'deg)';
           carousel.style.transition = 'all 0.75s ease-in-out';
       }
-
         back.addEventListener("click", () => {
           current--;
           rotateCarousel();
         })
-
         next.addEventListener("click", () => {
           current++;
           rotateCarousel();
@@ -92,9 +93,10 @@
         <p>Born in Porto Alegre, RS, Brazil</p>
         <p>Hobbys: </p>
         <h2>
-          <i class="fa-solid fa-code m-1" title="Coding"></i> <i class="fa-solid fa-book m-1" title="Reading"></i>
-          <i class="fa-solid fa-gamepad m-1" title="Video games"></i> <i class="fa-solid fa-dog m-1" title="Playing with my 2 dogs">
-          </i>
+          <i class="fa-solid fa-code m-1" title="Coding"></i>
+          <i class="fa-solid fa-book m-1" title="Reading"></i>
+          <i class="fa-solid fa-gamepad m-1" title="Video games"></i>
+          <i class="fa-solid fa-dog m-1" title="Playing with my 2 dogs"></i>
           <i class="fa-solid fa-futbol" title="Watching soccer matches"></i>
         </h2>
       </div>
@@ -117,7 +119,6 @@
     <div class="logo">
       <img src = "images/logo.png" id="icon" alt="logo">
     </div>
-
     <div class="footer-copyright">
       <p style="color: #112232">Cyd Losekann © 2022</p>
     </div>
