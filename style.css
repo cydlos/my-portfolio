@@ -1,6 +1,6 @@
 @import "card.css";
 @import "button.css";
-@import "carrossel.css";
+@import "carrossel2.css";
 @import "footer.css";
 
 p {
@@ -10,7 +10,6 @@ p {
 
 :root:root body {
   background-color: #112232;
-  /* background-color: rgb(45, 48, 59); */
 }
 
 /* .container {
