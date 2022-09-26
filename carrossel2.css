@@ -25,32 +25,32 @@
 }
 
 .carousel_cell:nth-child(1) {
-  background-color: #FF2E2F;
+  background: linear-gradient(0deg, rgba(116, 162, 253, 0.5) 0%, rgba(74, 82, 240, 0.9) 46%);
   transform: rotateY(0deg) translateZ(350px);
 }
 
 .carousel_cell:nth-child(2) {
-  background-color: #809FF6;
+  background: linear-gradient(0deg, rgba(116, 162, 253, 0.5) 0%, rgba(74, 82, 240, 0.9) 46%);
   transform: rotateY(60deg) translateZ(350px);
 }
 
 .carousel_cell:nth-child(3) {
-  background-color: #8259FB;
+  background: linear-gradient(0deg, rgba(171, 230, 233,0.5) 0%, rgba(116, 162, 253,0.9) 46%);
   transform: rotateY(120deg) translateZ(350px);
 }
 
 .carousel_cell:nth-child(4) {
-  background-color: #01DFD7;
+  background: linear-gradient(0deg, rgba(171, 230, 233,0.5) 0%, rgba(116, 162, 253,0.9) 46%);
   transform: rotateY(180deg) translateZ(350px);
 }
 
 .carousel_cell:nth-child(5) {
-  background-color: #FE9A2E;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%,  rgba(171, 230, 233,0.9) 46%);
   transform: rotateY(240deg) translateZ(350px);
 }
 
 .carousel_cell:nth-child(6) {
-  background-color: #A8F4A9;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%,  rgba(171, 230, 233,0.9) 46%);
   transform: rotateY(300deg) translateZ(350px);
 }
 
