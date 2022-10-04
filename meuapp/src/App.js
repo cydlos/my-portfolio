@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
 
 const App = () => {
-  const ativo = true;
-  return <p className={ativo ? 'ativo' : 'inativo'}>Estoque</p>;
+  return (
+    <>
+      <Header />
+      <Cards />
+      <Avatar />
+      <Footer />
+    </>
+  );
 };
-
 export default App;
